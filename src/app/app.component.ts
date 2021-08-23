@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
-import {Usuario} from '../shared/model/usuario';
+import { Component } from '@angular/core';
+import { Usuario } from '../shared/model/usuario';
+import { LayoutModule } from './layout/layout.module';
 
 @Component({
   selector: 'app-root',
@@ -20,5 +21,4 @@ export class AppComponent {
     this.usuarios.push(this.usuario);
     this.usuario = new Usuario();
   }
-
 }
